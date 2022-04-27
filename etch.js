@@ -9,8 +9,17 @@ function createGrid(gridSize){
         }
     }
 }
+function promptMe(){
+    let gridSize = parseInt(prompt('Please provide size of grid'));
+    reset();
+    createGrid(gridSize);
+};
 
-createGrid(16);
+function reset() {
+    while(container.firstChild) {
+        container.removeChild(container.firstChild);
+      }
+  }
 
 const grid = document.querySelectorAll('div > div');
 grid.forEach(box => box.addEventListener('mouseover', function(e){
