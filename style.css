@@ -11,8 +11,8 @@ body{
 
 #container{
     display: flex;
-    height: 700px;
-    width: 960px;
+    height: 600px;
+    width: 800px;
     background-color: white;
 }
 
@@ -20,6 +20,9 @@ body{
     flex: auto;
     display: flex;
     flex-direction: column;
+}
+.color{
+    background-color: black;
 }
 .box{
    flex: auto;

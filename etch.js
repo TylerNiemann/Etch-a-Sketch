@@ -9,4 +9,10 @@ function createGrid(gridSize){
         }
     }
 }
+
 createGrid(16);
+
+const grid = document.querySelectorAll('div > div');
+grid.forEach(box => box.addEventListener('mouseover', function(e){
+     e.target.style.backgroundColor = 'black';
+}));
