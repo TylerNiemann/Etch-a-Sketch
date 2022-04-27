@@ -1,0 +1,21 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+
+#container > div{
+    flex: auto;
+}
