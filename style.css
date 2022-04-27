@@ -11,11 +11,17 @@ body{
 
 #container{
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 960px;
     background-color: white;
 }
 
 #container > div{
     flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+   flex: auto;
+   border: 2px solid black;
 }
